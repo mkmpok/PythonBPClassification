@@ -3,16 +3,12 @@
 
 ##Features
 Data preprocessing and analysis
-
 Blood pressure stage classification
-
 Model training and saving (model.pkl)
-
 Flask web app for user input and prediction
-
 HTML templates for UI
 
-#Install dependencies:
+#STEP 1 = Install dependencies:
 flask
 pandas
 numpy
@@ -20,7 +16,11 @@ scikit-learn
 matplotlib
 seaborn
 
-#Run the app:
+##STEP 2 = python3 -m venv venv
+source venv/bin/activate  # Mac/Linux
+venv\Scripts\activate     # Windows
+
+##Run the app:
 python app1.py
 
 #Visit http://127.0.0.1:5000/ in your browser.
